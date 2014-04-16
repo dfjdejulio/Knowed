@@ -40,8 +40,8 @@
 		4712371018FEC28E0069EDB3 /* Knowed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Knowed-Info.plist"; sourceTree = "<group>"; };
 		4712371218FEC28E0069EDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4712371418FEC28E0069EDB3 /* Knowed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Knowed-Prefix.pch"; sourceTree = "<group>"; };
-		4712371518FEC28E0069EDB3 /* No_D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = No_D.h; sourceTree = "<group>"; };
-		4712371618FEC28E0069EDB3 /* No_D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = No_D.m; sourceTree = "<group>"; };
+		4712371518FEC28E0069EDB3 /* Knowed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Knowed.h; sourceTree = "<group>"; };
+		4712371618FEC28E0069EDB3 /* Knowed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Knowed.m; sourceTree = "<group>"; };
 		4712371C18FEC28E0069EDB3 /* KnowedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4712371D18FEC28E0069EDB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4712372518FEC28E0069EDB3 /* KnowedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnowedTests-Info.plist"; sourceTree = "<group>"; };
@@ -123,8 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				4712370F18FEC28E0069EDB3 /* Supporting Files */,
-				4712371518FEC28E0069EDB3 /* No_D.h */,
-				4712371618FEC28E0069EDB3 /* No_D.m */,
+				4712371518FEC28E0069EDB3 /* Knowed.h */,
+				4712371618FEC28E0069EDB3 /* Knowed.m */,
 			);
 			name = Knowed;
 			path = "No D";
