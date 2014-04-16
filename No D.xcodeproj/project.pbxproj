@@ -48,6 +48,7 @@
 		4712373718FEC3950069EDB3 /* NoDConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoDConsole.h; path = Classes/NoDConsole.h; sourceTree = "<group>"; };
 		4712373818FEC3950069EDB3 /* NoDConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoDConsole.m; path = Classes/NoDConsole.m; sourceTree = "<group>"; };
 		4712373C18FECB790069EDB3 /* NoDConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoDConsoleTests.m; sourceTree = "<group>"; };
+		47733D0118FEDD390091C3CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		471236FB18FEC28E0069EDB3 = {
 			isa = PBXGroup;
 			children = (
+				47733D0018FEDD230091C3CD /* Documentation */,
 				4712373318FEC2AB0069EDB3 /* Classes */,
 				4712370E18FEC28E0069EDB3 /* No D */,
 				4712372318FEC28E0069EDB3 /* No DTests */,
@@ -156,6 +158,14 @@
 				4712373818FEC3950069EDB3 /* NoDConsole.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		47733D0018FEDD230091C3CD /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				47733D0118FEDD390091C3CD /* README.md */,
+			);
+			name = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,6 +478,7 @@
 				4712372F18FEC28E0069EDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4712373018FEC28E0069EDB3 /* Build configuration list for PBXNativeTarget "No DTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +487,7 @@
 				4712373218FEC28E0069EDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
