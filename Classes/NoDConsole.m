@@ -8,6 +8,8 @@
 
 #import "NoDConsole.h"
 
+#pragma mark - Library-Supplied Blocks
+
 NoDOutputBlock logWithNSLog =  ^(NSString *message) {
     NSLog(@"JS Log: %@", message);
 };
@@ -16,9 +18,11 @@ NoDOutputBlock logWithStdout = ^(NSString *message) {
     printf("%s\n", [message UTF8String]);
 };
 
+#pragma mark - Implementation
+
 @implementation NoDConsole
 
-#pragma mark - Initializers
+#pragma mark Initializers
 
 - (NoDConsole *) init
 {
@@ -39,13 +43,32 @@ NoDOutputBlock logWithStdout = ^(NSString *message) {
 {
     self = [super init];
     self.outBlock = outputBlock;
+    self.shouldClear = NO;
     return self;
 }
 
-#pragma mark - Working Methods
+#pragma mark Exported Methods
 
-- (void) log: (NSString *) message {
+- (void) log: (NSString *) message
+{
     self.outBlock(message);
 }
+
+- (void) clear
+{
+    self.shouldClear = YES;
+}
+
+- (void) logWithFormat:(NSString *)format andValues:(NSArray *)values
+{
+    
+}
+
+#pragma mark Other Methods
+- (void) didClear
+{
+    self.shouldClear = NO;
+}
+
 
 @end

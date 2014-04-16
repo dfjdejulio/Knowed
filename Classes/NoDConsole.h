@@ -11,22 +11,47 @@
 
 typedef void (^NoDOutputBlock)(NSString *message);
 
+#pragma mark - Protocol
+
 @protocol NoDConsoleExports <JSExport>
 
-@property (nonatomic, readonly) NSString *name;
+#pragma mark Exported Attributes
+
+@property BOOL shouldClear;
+
+#pragma mark Exported Methods
 
 - (void) log: (NSString *) message;
+- (void) clear;
+- (void) logWithFormat: (NSString *) format andValues: (NSArray *) values;
+// TODO: make log varadic (???)
+// TOOD: add console.clear()
+// TODO: add console.assert()
+// TODO: add console.info()
+// TODO: add console.error()
+// TODO: add console.count()
+// TODO: add console.time/timeEnd/timeStamp
 
 @end
 
+#pragma mark - Interface
+
 @interface NoDConsole : NSObject <NoDConsoleExports>
 
-@property (nonatomic, readonly) NSString *name;
 
 @property (copy) NoDOutputBlock outBlock;
+
+#pragma mark Implemented Properties
+
+@property BOOL shouldClear;
+
+#pragma mark Initializers
 
 - (NoDConsole *) initWithNSLog;
 - (NoDConsole *) initWithStdout;
 - (NoDConsole *) initWithOutputBlock: (NoDOutputBlock) outputBlock;
+
+#pragma mark Other Methods
+- (void) didClear;
 
 @end
