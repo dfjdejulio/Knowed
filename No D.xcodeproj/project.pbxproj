@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4712370918FEC28E0069EDB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712370818FEC28E0069EDB3 /* Cocoa.framework */; };
 		4712371318FEC28E0069EDB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4712371118FEC28E0069EDB3 /* InfoPlist.strings */; };
 		4712371718FEC28E0069EDB3 /* No_D.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712371618FEC28E0069EDB3 /* No_D.m */; };
 		4712371E18FEC28E0069EDB3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712371D18FEC28E0069EDB3 /* XCTest.framework */; };
-		4712371F18FEC28E0069EDB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712370818FEC28E0069EDB3 /* Cocoa.framework */; };
 		4712372218FEC28E0069EDB3 /* No D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712370518FEC28E0069EDB3 /* No D.framework */; };
 		4712372818FEC28E0069EDB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4712372618FEC28E0069EDB3 /* InfoPlist.strings */; };
-		4712372A18FEC28E0069EDB3 /* No_DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712372918FEC28E0069EDB3 /* No_DTests.m */; };
+		4712372A18FEC28E0069EDB3 /* NoDBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712372918FEC28E0069EDB3 /* NoDBaseTests.m */; };
+		4712373418FEC2D70069EDB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712370B18FEC28E0069EDB3 /* Foundation.framework */; };
+		4712373618FEC2E30069EDB3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712373518FEC2E30069EDB3 /* JavaScriptCore.framework */; };
+		4712373918FEC3950069EDB3 /* NoDConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4712373718FEC3950069EDB3 /* NoDConsole.h */; };
+		4712373A18FEC3950069EDB3 /* NoDConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373818FEC3950069EDB3 /* NoDConsole.m */; };
+		4712373B18FEC3950069EDB3 /* NoDConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373818FEC3950069EDB3 /* NoDConsole.m */; };
+		4712373D18FECB790069EDB3 /* NoDConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373C18FECB790069EDB3 /* NoDConsoleTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +33,7 @@
 
 /* Begin PBXFileReference section */
 		4712370518FEC28E0069EDB3 /* No D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "No D.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4712370818FEC28E0069EDB3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4712370B18FEC28E0069EDB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4712370C18FEC28E0069EDB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		4712370D18FEC28E0069EDB3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4712371018FEC28E0069EDB3 /* No D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "No D-Info.plist"; sourceTree = "<group>"; };
 		4712371218FEC28E0069EDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4712371418FEC28E0069EDB3 /* No D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "No D-Prefix.pch"; sourceTree = "<group>"; };
@@ -42,7 +43,11 @@
 		4712371D18FEC28E0069EDB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4712372518FEC28E0069EDB3 /* No DTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "No DTests-Info.plist"; sourceTree = "<group>"; };
 		4712372718FEC28E0069EDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4712372918FEC28E0069EDB3 /* No_DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = No_DTests.m; sourceTree = "<group>"; };
+		4712372918FEC28E0069EDB3 /* NoDBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoDBaseTests.m; sourceTree = "<group>"; };
+		4712373518FEC2E30069EDB3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		4712373718FEC3950069EDB3 /* NoDConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoDConsole.h; path = Classes/NoDConsole.h; sourceTree = "<group>"; };
+		4712373818FEC3950069EDB3 /* NoDConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoDConsole.m; path = Classes/NoDConsole.m; sourceTree = "<group>"; };
+		4712373C18FECB790069EDB3 /* NoDConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoDConsoleTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4712370918FEC28E0069EDB3 /* Cocoa.framework in Frameworks */,
+				4712373618FEC2E30069EDB3 /* JavaScriptCore.framework in Frameworks */,
+				4712373418FEC2D70069EDB3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4712371F18FEC28E0069EDB3 /* Cocoa.framework in Frameworks */,
 				4712372218FEC28E0069EDB3 /* No D.framework in Frameworks */,
 				4712371E18FEC28E0069EDB3 /* XCTest.framework in Frameworks */,
 			);
@@ -70,6 +75,7 @@
 		471236FB18FEC28E0069EDB3 = {
 			isa = PBXGroup;
 			children = (
+				4712373318FEC2AB0069EDB3 /* Classes */,
 				4712370E18FEC28E0069EDB3 /* No D */,
 				4712372318FEC28E0069EDB3 /* No DTests */,
 				4712370718FEC28E0069EDB3 /* Frameworks */,
@@ -89,7 +95,8 @@
 		4712370718FEC28E0069EDB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4712370818FEC28E0069EDB3 /* Cocoa.framework */,
+				4712373518FEC2E30069EDB3 /* JavaScriptCore.framework */,
+				4712370B18FEC28E0069EDB3 /* Foundation.framework */,
 				4712371D18FEC28E0069EDB3 /* XCTest.framework */,
 				4712370A18FEC28E0069EDB3 /* Other Frameworks */,
 			);
@@ -99,9 +106,6 @@
 		4712370A18FEC28E0069EDB3 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4712370B18FEC28E0069EDB3 /* Foundation.framework */,
-				4712370C18FEC28E0069EDB3 /* CoreData.framework */,
-				4712370D18FEC28E0069EDB3 /* AppKit.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -109,9 +113,9 @@
 		4712370E18FEC28E0069EDB3 /* No D */ = {
 			isa = PBXGroup;
 			children = (
+				4712370F18FEC28E0069EDB3 /* Supporting Files */,
 				4712371518FEC28E0069EDB3 /* No_D.h */,
 				4712371618FEC28E0069EDB3 /* No_D.m */,
-				4712370F18FEC28E0069EDB3 /* Supporting Files */,
 			);
 			path = "No D";
 			sourceTree = "<group>";
@@ -129,8 +133,9 @@
 		4712372318FEC28E0069EDB3 /* No DTests */ = {
 			isa = PBXGroup;
 			children = (
-				4712372918FEC28E0069EDB3 /* No_DTests.m */,
 				4712372418FEC28E0069EDB3 /* Supporting Files */,
+				4712372918FEC28E0069EDB3 /* NoDBaseTests.m */,
+				4712373C18FECB790069EDB3 /* NoDConsoleTests.m */,
 			);
 			path = "No DTests";
 			sourceTree = "<group>";
@@ -144,6 +149,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4712373318FEC2AB0069EDB3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4712373718FEC3950069EDB3 /* NoDConsole.h */,
+				4712373818FEC3950069EDB3 /* NoDConsole.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,6 +165,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4712373918FEC3950069EDB3 /* NoDConsole.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4712371718FEC28E0069EDB3 /* No_D.m in Sources */,
+				4712373A18FEC3950069EDB3 /* NoDConsole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4712372A18FEC28E0069EDB3 /* No_DTests.m in Sources */,
+				4712372A18FEC28E0069EDB3 /* NoDBaseTests.m in Sources */,
+				4712373B18FEC3950069EDB3 /* NoDConsole.m in Sources */,
+				4712373D18FECB790069EDB3 /* NoDConsoleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
