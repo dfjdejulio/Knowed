@@ -7,15 +7,15 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "NoDConsole.h"
+#import "KnowedConsole.h"
 
-@interface NoDConsoleTests : XCTestCase
+@interface KnowedConsoleTests : XCTestCase
 
-@property NoDConsole *console;
+@property KnowedConsole *console;
 
 @end
 
-@implementation NoDConsoleTests
+@implementation KnowedConsoleTests
 - (void)setUp
 {
     [super setUp];
@@ -28,14 +28,14 @@
 
 - (void)testDefaultConfiguratoin
 {
-    self.console = [NoDConsole new];
+    self.console = [KnowedConsole new];
     [self.console log:@"testing default"];
     self.console = nil;
 }
 
 - (void)testStdout
 {
-    self.console = [[NoDConsole alloc] initWithStdout];
+    self.console = [[KnowedConsole alloc] initWithStdout];
     puts("A testing message should follow this line.");
     [self.console log:@"testing stdout"];
     self.console = nil;
@@ -43,7 +43,7 @@
 
 - (void)testNSLog
 {
-    self.console = [[NoDConsole alloc] initWithNSLog];
+    self.console = [[KnowedConsole alloc] initWithNSLog];
     NSLog(@"A testing message should follow this line.");
     [self.console log:@"testing NSLog"];
     self.console = nil;
@@ -59,7 +59,7 @@
         [outMessage appendString: msg];
         [outMessage appendString: @"\n"];
     };
-    self.console = [[NoDConsole alloc] initWithOutputBlock: outBlock];
+    self.console = [[KnowedConsole alloc] initWithOutputBlock: outBlock];
     [self.console log: inMessage];
     [self.console log: inMessage];
 

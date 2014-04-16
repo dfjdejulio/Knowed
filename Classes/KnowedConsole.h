@@ -13,7 +13,7 @@ typedef void (^NoDOutputBlock)(NSString *message);
 
 #pragma mark - Protocol
 
-@protocol NoDConsoleExports <JSExport>
+@protocol KnowedConsoleExports <JSExport>
 
 #pragma mark Exported Attributes
 
@@ -36,20 +36,21 @@ typedef void (^NoDOutputBlock)(NSString *message);
 
 #pragma mark - Interface
 
-@interface NoDConsole : NSObject <NoDConsoleExports>
+@interface KnowedConsole : NSObject <KnowedConsoleExports>
 
-
+/// Block to call to send the output.
 @property (copy) NoDOutputBlock outBlock;
 
 #pragma mark Implemented Properties
 
+/// Flag to indicate if .clear() has been called but not yet handled.
 @property BOOL shouldClear;
 
 #pragma mark Initializers
 
-- (NoDConsole *) initWithNSLog;
-- (NoDConsole *) initWithStdout;
-- (NoDConsole *) initWithOutputBlock: (NoDOutputBlock) outputBlock;
+- (KnowedConsole *) initWithNSLog;
+- (KnowedConsole *) initWithStdout;
+- (KnowedConsole *) initWithOutputBlock: (NoDOutputBlock) outputBlock;
 
 #pragma mark Other Methods
 - (void) didClear;

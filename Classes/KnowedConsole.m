@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Doug DeJulio. All rights reserved.
 //
 
-#import "NoDConsole.h"
+#import "KnowedConsole.h"
 
 #pragma mark - Library-Supplied Blocks
 
@@ -20,26 +20,26 @@ NoDOutputBlock logWithStdout = ^(NSString *message) {
 
 #pragma mark - Implementation
 
-@implementation NoDConsole
+@implementation KnowedConsole
 
 #pragma mark Initializers
 
-- (NoDConsole *) init
+- (KnowedConsole *) init
 {
     return [self initWithNSLog];
 }
 
-- (NoDConsole *) initWithNSLog
+- (KnowedConsole *) initWithNSLog
 {
     return [self initWithOutputBlock: logWithNSLog];
 }
 
-- (NoDConsole *) initWithStdout
+- (KnowedConsole *) initWithStdout
 {
     return [self initWithOutputBlock: logWithStdout];
 }
 
-- (NoDConsole *) initWithOutputBlock: (NoDOutputBlock) outputBlock
+- (KnowedConsole *) initWithOutputBlock: (NoDOutputBlock) outputBlock
 {
     self = [super init];
     self.outBlock = outputBlock;

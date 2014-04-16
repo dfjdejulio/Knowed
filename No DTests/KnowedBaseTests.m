@@ -9,14 +9,14 @@
 #import <XCTest/XCTest.h>
 #import <JavaScriptCore/JavaScriptCore.h>
 
-@interface NoDBaseTests : XCTestCase {
+@interface KnowedBaseTests : XCTestCase {
     JSContext *context;
     JSValue *value;
 }
 
 @end
 
-@implementation NoDBaseTests
+@implementation KnowedBaseTests
 
 - (void)setUp
 {
