@@ -44,7 +44,7 @@
 		4712371618FEC28E0069EDB3 /* Knowed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Knowed.m; path = Knowed/Knowed.m; sourceTree = "<group>"; };
 		4712371C18FEC28E0069EDB3 /* KnowedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4712371D18FEC28E0069EDB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4712372518FEC28E0069EDB3 /* KnowedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnowedTests-Info.plist"; sourceTree = "<group>"; };
+		4712372518FEC28E0069EDB3 /* KnowedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "KnowedTests-Info.plist"; path = "KnowedTests/KnowedTests-Info.plist"; sourceTree = "<group>"; };
 		4712372718FEC28E0069EDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4712372918FEC28E0069EDB3 /* KnowedBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KnowedBaseTests.m; path = KnowedTests/KnowedBaseTests.m; sourceTree = "<group>"; };
 		4712373518FEC2E30069EDB3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -323,6 +323,7 @@
 				4712371218FEC28E0069EDB3 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = Knowed;
 			sourceTree = "<group>";
 		};
 		4712372618FEC28E0069EDB3 /* InfoPlist.strings */ = {
@@ -331,6 +332,7 @@
 				4712372718FEC28E0069EDB3 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = KnowedTests;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
