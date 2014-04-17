@@ -16,3 +16,15 @@ Here are some built-in objects already in JavaScriptCore.
 * RegExp
 * Boolean
 * String
+
+ToDo
+---
+
+* generic alert/prompt
+* log with varargs
+* File I/O
+* http/https
+* storage APIs
+ * WebSQL
+* crazy shit
+ * WebGL?
