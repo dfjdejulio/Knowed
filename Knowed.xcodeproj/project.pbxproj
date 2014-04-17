@@ -20,6 +20,9 @@
 		4712373B18FEC3950069EDB3 /* KnowedConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373818FEC3950069EDB3 /* KnowedConsole.m */; };
 		4712373D18FECB790069EDB3 /* KnowedConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */; };
 		4723904F18FEF96600437629 /* KnowedConsoleViaJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */; };
+		4734E6901900183200151AFC /* KnowedUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4734E68E1900183200151AFC /* KnowedUtil.h */; };
+		4734E6911900183200151AFC /* KnowedUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4734E68F1900183200151AFC /* KnowedUtil.m */; };
+		4734E6921900183200151AFC /* KnowedUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4734E68F1900183200151AFC /* KnowedUtil.m */; };
 		47E7EFBC18FF2ED7000FFA42 /* KnowedBufferConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		47E7EFBD18FF2ED7000FFA42 /* KnowedBufferConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */; };
 		47E7EFBF18FF3234000FFA42 /* KnowedBufferConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */; };
@@ -53,6 +56,8 @@
 		4712373818FEC3950069EDB3 /* KnowedConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedConsole.m; path = Classes/KnowedConsole.m; sourceTree = "<group>"; };
 		4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedConsoleTests.m; sourceTree = "<group>"; };
 		4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedConsoleViaJSTests.m; sourceTree = "<group>"; };
+		4734E68E1900183200151AFC /* KnowedUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedUtil.h; path = Classes/KnowedUtil.h; sourceTree = "<group>"; };
+		4734E68F1900183200151AFC /* KnowedUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedUtil.m; path = Classes/KnowedUtil.m; sourceTree = "<group>"; };
 		47733D0118FEDD390091C3CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedBufferConsole.h; path = Classes/KnowedBufferConsole.h; sourceTree = "<group>"; };
 		47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedBufferConsole.m; path = Classes/KnowedBufferConsole.m; sourceTree = "<group>"; };
@@ -168,6 +173,8 @@
 				4712373818FEC3950069EDB3 /* KnowedConsole.m */,
 				47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */,
 				47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */,
+				4734E68E1900183200151AFC /* KnowedUtil.h */,
+				4734E68F1900183200151AFC /* KnowedUtil.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -179,6 +186,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4734E6901900183200151AFC /* KnowedUtil.h in Headers */,
 				47E7EFBC18FF2ED7000FFA42 /* KnowedBufferConsole.h in Headers */,
 				4712373918FEC3950069EDB3 /* KnowedConsole.h in Headers */,
 				470C4D8F18FF81EC00BB03E3 /* Knowed.h in Headers */,
@@ -230,7 +238,7 @@
 		471236FC18FEC28E0069EDB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = NoD;
+				CLASSPREFIX = Knowed;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Doug DeJulio";
 				TargetAttributes = {
@@ -281,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4734E6911900183200151AFC /* KnowedUtil.m in Sources */,
 				4712373A18FEC3950069EDB3 /* KnowedConsole.m in Sources */,
 				47E7EFBD18FF2ED7000FFA42 /* KnowedBufferConsole.m in Sources */,
 			);
@@ -293,6 +302,7 @@
 				4712372A18FEC28E0069EDB3 /* KnowedBaseTests.m in Sources */,
 				47E7EFBF18FF3234000FFA42 /* KnowedBufferConsoleTests.m in Sources */,
 				4723904F18FEF96600437629 /* KnowedConsoleViaJSTests.m in Sources */,
+				4734E6921900183200151AFC /* KnowedUtil.m in Sources */,
 				4712373B18FEC3950069EDB3 /* KnowedConsole.m in Sources */,
 				4712373D18FECB790069EDB3 /* KnowedConsoleTests.m in Sources */,
 			);
