@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Knowed/KnowedBufferConsole.h>
+#import <Knowed/KnowedConsole.h>
 
 @interface Knowed : NSObject
 

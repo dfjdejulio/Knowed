@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470C4D8F18FF81EC00BB03E3 /* Knowed.h in Headers */ = {isa = PBXBuildFile; fileRef = 4712371518FEC28E0069EDB3 /* Knowed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4712371318FEC28E0069EDB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4712371118FEC28E0069EDB3 /* InfoPlist.strings */; };
 		4712371E18FEC28E0069EDB3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712371D18FEC28E0069EDB3 /* XCTest.framework */; };
 		4712372218FEC28E0069EDB3 /* Knowed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712370518FEC28E0069EDB3 /* Knowed.framework */; };
@@ -14,12 +15,12 @@
 		4712372A18FEC28E0069EDB3 /* KnowedBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712372918FEC28E0069EDB3 /* KnowedBaseTests.m */; };
 		4712373418FEC2D70069EDB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712370B18FEC28E0069EDB3 /* Foundation.framework */; };
 		4712373618FEC2E30069EDB3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712373518FEC2E30069EDB3 /* JavaScriptCore.framework */; };
-		4712373918FEC3950069EDB3 /* KnowedConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4712373718FEC3950069EDB3 /* KnowedConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4712373918FEC3950069EDB3 /* KnowedConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4712373718FEC3950069EDB3 /* KnowedConsole.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4712373A18FEC3950069EDB3 /* KnowedConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373818FEC3950069EDB3 /* KnowedConsole.m */; };
 		4712373B18FEC3950069EDB3 /* KnowedConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373818FEC3950069EDB3 /* KnowedConsole.m */; };
 		4712373D18FECB790069EDB3 /* KnowedConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */; };
 		4723904F18FEF96600437629 /* KnowedConsoleViaJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */; };
-		47E7EFBC18FF2ED7000FFA42 /* KnowedBufferConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */; };
+		47E7EFBC18FF2ED7000FFA42 /* KnowedBufferConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		47E7EFBD18FF2ED7000FFA42 /* KnowedBufferConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */; };
 		47E7EFBF18FF3234000FFA42 /* KnowedBufferConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */; };
 /* End PBXBuildFile section */
@@ -180,6 +181,7 @@
 			files = (
 				47E7EFBC18FF2ED7000FFA42 /* KnowedBufferConsole.h in Headers */,
 				4712373918FEC3950069EDB3 /* KnowedConsole.h in Headers */,
+				470C4D8F18FF81EC00BB03E3 /* Knowed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
