@@ -37,25 +37,25 @@
 /* Begin PBXFileReference section */
 		4712370518FEC28E0069EDB3 /* Knowed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Knowed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4712370B18FEC28E0069EDB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4712371018FEC28E0069EDB3 /* Knowed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Knowed-Info.plist"; sourceTree = "<group>"; };
+		4712371018FEC28E0069EDB3 /* Knowed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "Knowed-Info.plist"; path = "Knowed/Knowed-Info.plist"; sourceTree = "<group>"; };
 		4712371218FEC28E0069EDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4712371418FEC28E0069EDB3 /* Knowed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Knowed-Prefix.pch"; sourceTree = "<group>"; };
-		4712371518FEC28E0069EDB3 /* Knowed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Knowed.h; sourceTree = "<group>"; };
-		4712371618FEC28E0069EDB3 /* Knowed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Knowed.m; sourceTree = "<group>"; };
+		4712371418FEC28E0069EDB3 /* Knowed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Knowed-Prefix.pch"; path = "Knowed/Knowed-Prefix.pch"; sourceTree = "<group>"; };
+		4712371518FEC28E0069EDB3 /* Knowed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Knowed.h; path = Knowed/Knowed.h; sourceTree = "<group>"; };
+		4712371618FEC28E0069EDB3 /* Knowed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Knowed.m; path = Knowed/Knowed.m; sourceTree = "<group>"; };
 		4712371C18FEC28E0069EDB3 /* KnowedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4712371D18FEC28E0069EDB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4712372518FEC28E0069EDB3 /* KnowedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnowedTests-Info.plist"; sourceTree = "<group>"; };
 		4712372718FEC28E0069EDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4712372918FEC28E0069EDB3 /* KnowedBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnowedBaseTests.m; sourceTree = "<group>"; };
+		4712372918FEC28E0069EDB3 /* KnowedBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KnowedBaseTests.m; path = KnowedTests/KnowedBaseTests.m; sourceTree = "<group>"; };
 		4712373518FEC2E30069EDB3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		4712373718FEC3950069EDB3 /* KnowedConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedConsole.h; path = Classes/KnowedConsole.h; sourceTree = "<group>"; };
 		4712373818FEC3950069EDB3 /* KnowedConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedConsole.m; path = Classes/KnowedConsole.m; sourceTree = "<group>"; };
-		4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedConsoleTests.m; sourceTree = "<group>"; };
-		4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedConsoleViaJSTests.m; sourceTree = "<group>"; };
+		4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedConsoleTests.m; path = KnowedTests/KnowedConsoleTests.m; sourceTree = "<group>"; };
+		4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedConsoleViaJSTests.m; path = KnowedTests/KnowedConsoleViaJSTests.m; sourceTree = "<group>"; };
 		47733D0118FEDD390091C3CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedBufferConsole.h; path = Classes/KnowedBufferConsole.h; sourceTree = "<group>"; };
 		47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedBufferConsole.m; path = Classes/KnowedBufferConsole.m; sourceTree = "<group>"; };
-		47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedBufferConsoleTests.m; sourceTree = "<group>"; };
+		47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedBufferConsoleTests.m; path = KnowedTests/KnowedBufferConsoleTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
