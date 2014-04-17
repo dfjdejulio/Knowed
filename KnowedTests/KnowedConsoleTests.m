@@ -56,8 +56,7 @@
     NSMutableString *expectedMessage = [NSMutableString new];
 
     NoDOutputBlock outBlock = ^(NSString *msg) {
-        [outMessage appendString: msg];
-        [outMessage appendString: @"\n"];
+        [outMessage appendFormat: @"%@\n", msg];
     };
     self.console = [[KnowedConsole alloc] initWithOutputBlock: outBlock];
     [self.console log: inMessage];
