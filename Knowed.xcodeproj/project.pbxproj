@@ -83,7 +83,7 @@
 		471236FB18FEC28E0069EDB3 = {
 			isa = PBXGroup;
 			children = (
-				47733D0018FEDD230091C3CD /* Documentation */,
+				47733D0118FEDD390091C3CD /* README.md */,
 				4712373318FEC2AB0069EDB3 /* Classes */,
 				4712370E18FEC28E0069EDB3 /* Knowed */,
 				4712372318FEC28E0069EDB3 /* KnowedTests */,
@@ -171,14 +171,6 @@
 				47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		47733D0018FEDD230091C3CD /* Documentation */ = {
-			isa = PBXGroup;
-			children = (
-				47733D0118FEDD390091C3CD /* README.md */,
-			);
-			name = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
