@@ -30,32 +30,32 @@
 			containerPortal = 471236FC18FEC28E0069EDB3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4712370418FEC28E0069EDB3;
-			remoteInfo = "No D";
+			remoteInfo = Knowed;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4712370518FEC28E0069EDB3 /* Knowed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Knowed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4712370B18FEC28E0069EDB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4712371018FEC28E0069EDB3 /* Knowed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "Knowed-Info.plist"; path = "Knowed/Knowed-Info.plist"; sourceTree = "<group>"; };
+		4712371018FEC28E0069EDB3 /* Knowed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Knowed-Info.plist"; sourceTree = "<group>"; };
 		4712371218FEC28E0069EDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4712371418FEC28E0069EDB3 /* Knowed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Knowed-Prefix.pch"; path = "Knowed/Knowed-Prefix.pch"; sourceTree = "<group>"; };
-		4712371518FEC28E0069EDB3 /* Knowed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Knowed.h; path = Knowed/Knowed.h; sourceTree = "<group>"; };
-		4712371618FEC28E0069EDB3 /* Knowed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Knowed.m; path = Knowed/Knowed.m; sourceTree = "<group>"; };
+		4712371418FEC28E0069EDB3 /* Knowed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Knowed-Prefix.pch"; sourceTree = "<group>"; };
+		4712371518FEC28E0069EDB3 /* Knowed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Knowed.h; sourceTree = "<group>"; };
+		4712371618FEC28E0069EDB3 /* Knowed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Knowed.m; sourceTree = "<group>"; };
 		4712371C18FEC28E0069EDB3 /* KnowedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4712371D18FEC28E0069EDB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4712372518FEC28E0069EDB3 /* KnowedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "KnowedTests-Info.plist"; path = "KnowedTests/KnowedTests-Info.plist"; sourceTree = "<group>"; };
+		4712372518FEC28E0069EDB3 /* KnowedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnowedTests-Info.plist"; sourceTree = "<group>"; };
 		4712372718FEC28E0069EDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4712372918FEC28E0069EDB3 /* KnowedBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KnowedBaseTests.m; path = KnowedTests/KnowedBaseTests.m; sourceTree = "<group>"; };
+		4712372918FEC28E0069EDB3 /* KnowedBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnowedBaseTests.m; sourceTree = "<group>"; };
 		4712373518FEC2E30069EDB3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		4712373718FEC3950069EDB3 /* KnowedConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedConsole.h; path = Classes/KnowedConsole.h; sourceTree = "<group>"; };
 		4712373818FEC3950069EDB3 /* KnowedConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedConsole.m; path = Classes/KnowedConsole.m; sourceTree = "<group>"; };
-		4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedConsoleTests.m; path = KnowedTests/KnowedConsoleTests.m; sourceTree = "<group>"; };
-		4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedConsoleViaJSTests.m; path = KnowedTests/KnowedConsoleViaJSTests.m; sourceTree = "<group>"; };
+		4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedConsoleTests.m; sourceTree = "<group>"; };
+		4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedConsoleViaJSTests.m; sourceTree = "<group>"; };
 		47733D0118FEDD390091C3CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedBufferConsole.h; path = Classes/KnowedBufferConsole.h; sourceTree = "<group>"; };
 		47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedBufferConsole.m; path = Classes/KnowedBufferConsole.m; sourceTree = "<group>"; };
-		47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedBufferConsoleTests.m; path = KnowedTests/KnowedBufferConsoleTests.m; sourceTree = "<group>"; };
+		47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedBufferConsoleTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,7 @@
 				4712371518FEC28E0069EDB3 /* Knowed.h */,
 				4712371618FEC28E0069EDB3 /* Knowed.m */,
 			);
-			name = Knowed;
-			path = "No D";
+			path = Knowed;
 			sourceTree = "<group>";
 		};
 		4712370F18FEC28E0069EDB3 /* Supporting Files */ = {
@@ -149,8 +148,7 @@
 				47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */,
 				4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */,
 			);
-			name = KnowedTests;
-			path = "No DTests";
+			path = KnowedTests;
 			sourceTree = "<group>";
 		};
 		4712372418FEC28E0069EDB3 /* Supporting Files */ = {
@@ -202,7 +200,7 @@
 			dependencies = (
 			);
 			name = Knowed;
-			productName = "No D";
+			productName = Knowed;
 			productReference = 4712370518FEC28E0069EDB3 /* Knowed.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -220,7 +218,7 @@
 				4712372118FEC28E0069EDB3 /* PBXTargetDependency */,
 			);
 			name = KnowedTests;
-			productName = "No DTests";
+			productName = KnowedTests;
 			productReference = 4712371C18FEC28E0069EDB3 /* KnowedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -315,7 +313,6 @@
 				4712371218FEC28E0069EDB3 /* en */,
 			);
 			name = InfoPlist.strings;
-			path = Knowed;
 			sourceTree = "<group>";
 		};
 		4712372618FEC28E0069EDB3 /* InfoPlist.strings */ = {
@@ -324,7 +321,6 @@
 				4712372718FEC28E0069EDB3 /* en */,
 			);
 			name = InfoPlist.strings;
-			path = KnowedTests;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -408,8 +404,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "No D/Knowed-Prefix.pch";
-				INFOPLIST_FILE = "No D/Knowed-Info.plist";
+				GCC_PREFIX_HEADER = "Knowed/Knowed-Prefix.pch";
+				INFOPLIST_FILE = "Knowed/Knowed-Info.plist";
 				PRODUCT_NAME = Knowed;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -423,8 +419,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "No D/Knowed-Prefix.pch";
-				INFOPLIST_FILE = "No D/Knowed-Info.plist";
+				GCC_PREFIX_HEADER = "Knowed/Knowed-Prefix.pch";
+				INFOPLIST_FILE = "Knowed/Knowed-Info.plist";
 				PRODUCT_NAME = Knowed;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -433,19 +429,19 @@
 		4712373118FEC28E0069EDB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/No D.framework/Versions/A/No D";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knowed.framework/Versions/A/Knowed";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "No D/No D-Prefix.pch";
+				GCC_PREFIX_HEADER = "Knowed/Knowed-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "No DTests/KnowedTests-Info.plist";
+				INFOPLIST_FILE = "KnowedTests/KnowedTests-Info.plist";
 				PRODUCT_NAME = KnowedTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -455,15 +451,15 @@
 		4712373218FEC28E0069EDB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/No D.framework/Versions/A/No D";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knowed.framework/Versions/A/Knowed";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "No D/No D-Prefix.pch";
-				INFOPLIST_FILE = "No DTests/KnowedTests-Info.plist";
+				GCC_PREFIX_HEADER = "Knowed/Knowed-Prefix.pch";
+				INFOPLIST_FILE = "KnowedTests/KnowedTests-Info.plist";
 				PRODUCT_NAME = KnowedTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
