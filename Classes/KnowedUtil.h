@@ -10,6 +10,9 @@
 
 @protocol KnowedUtilExports <JSExport>
 
+@property (readonly) NSString *eval;
+@property (readonly) NSString *name;
+
 - (void) alert: (NSString *) message;
 
 - (NSString *) prompt: (NSString *) message;
@@ -19,6 +22,8 @@
 @interface KnowedUtil : NSObject <KnowedUtilExports> {
     @public KnowedOutputBlock outBlock;
     @public KnowedInputBlockWithMessage inBlock;
+    @protected NSString *eval;
+    @protected NSString *name;
 }
 
 @end
