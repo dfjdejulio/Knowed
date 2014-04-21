@@ -1,15 +1,13 @@
 //
-//  NoDConsole.h
-//  No D
+//  KnowedConsole.h
+//  Knowed
 //
 //  Created by Doug DeJulio on 2014-04-16.
 //  Copyright (c) 2014 Doug DeJulio. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
-
-typedef void (^NoDOutputBlock)(NSString *message);
+#import "Knowed/KnowedTypes.h"
 
 #pragma mark - Protocol
 
@@ -36,10 +34,12 @@ typedef void (^NoDOutputBlock)(NSString *message);
 
 #pragma mark - Interface
 
-@interface KnowedConsole : NSObject <KnowedConsoleExports>
+@interface KnowedConsole : NSObject <KnowedConsoleExports> {
+    KnowedOutputBlock outBlock;
+}
 
 /// Block to call to send the output.
-@property (copy) NoDOutputBlock outBlock;
+//@property KnowedOutputBlock outBlock;
 
 #pragma mark Implemented Properties
 
@@ -50,7 +50,7 @@ typedef void (^NoDOutputBlock)(NSString *message);
 
 - (KnowedConsole *) initWithNSLog;
 - (KnowedConsole *) initWithStdout;
-- (KnowedConsole *) initWithOutputBlock: (NoDOutputBlock) outputBlock;
+- (KnowedConsole *) initWithOutputBlock: (KnowedOutputBlock) outputBlock;
 
 #pragma mark Other Methods
 - (void) didClear;

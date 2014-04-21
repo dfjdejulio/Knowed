@@ -6,15 +6,16 @@
 //  Copyright (c) 2014 Doug DeJulio. All rights reserved.
 //
 
+#import <Knowed/Knowed.h>
 #import "KnowedConsole.h"
 
 #pragma mark - Library-Supplied Blocks
 
-NoDOutputBlock logWithNSLog =  ^(NSString *message) {
+KnowedOutputBlock logWithNSLog =  ^(NSString *message) {
     NSLog(@"JS Log: %@", message);
 };
 
-NoDOutputBlock logWithStdout = ^(NSString *message) {
+KnowedOutputBlock logWithStdout = ^(NSString *message) {
     printf("%s\n", [message UTF8String]);
 };
 
@@ -39,10 +40,10 @@ NoDOutputBlock logWithStdout = ^(NSString *message) {
     return [self initWithOutputBlock: logWithStdout];
 }
 
-- (KnowedConsole *) initWithOutputBlock: (NoDOutputBlock) outputBlock
+- (KnowedConsole *) initWithOutputBlock: (KnowedOutputBlock) outputBlock
 {
     self = [super init];
-    self.outBlock = outputBlock;
+    outBlock = outputBlock;
     self.shouldClear = NO;
     return self;
 }
@@ -51,7 +52,7 @@ NoDOutputBlock logWithStdout = ^(NSString *message) {
 
 - (void) log: (NSString *) message
 {
-    self.outBlock(message);
+    outBlock(message);
 }
 
 - (void) clear
