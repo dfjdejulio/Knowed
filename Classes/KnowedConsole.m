@@ -45,6 +45,8 @@ KnowedOutputBlock logWithStdout = ^(NSString *message) {
     self = [super init];
     outBlock = outputBlock;
     self.shouldClear = NO;
+    knowedName = @"console";
+    knowedEval = @"";
     return self;
 }
 

@@ -25,9 +25,8 @@
     [super setUp];
     logBuffer = [NSMutableString new];
     context = [JSContext new];
-    
     console = [KnowedBufferConsole new];
-    context[@"console"] = console;
+    [console addSelfToContext: context];
 }
 
 - (void)tearDown

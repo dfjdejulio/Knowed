@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
 #import "Knowed/KnowedTypes.h"
+#import "Knowed/KnowedThingy.h"
 #import "Knowed/KnowedConsole.h"
 #import "Knowed/KnowedBufferConsole.h"
 #import "Knowed/KnowedUtil.h"

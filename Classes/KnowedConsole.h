@@ -7,6 +7,7 @@
 //
 
 #import <JavaScriptCore/JavaScriptCore.h>
+#import "Knowed/KnowedThingy.h"
 #import "Knowed/KnowedTypes.h"
 
 #pragma mark - Protocol
@@ -34,7 +35,7 @@
 
 #pragma mark - Interface
 
-@interface KnowedConsole : NSObject <KnowedConsoleExports> {
+@interface KnowedConsole : KnowedThingy <KnowedConsoleExports> {
     KnowedOutputBlock outBlock;
 }
 

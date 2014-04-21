@@ -28,8 +28,7 @@
     [super setUp];
     context = [JSContext new];
     util = [KnowedUtil new];
-    context[util.name] = util;
-    [context evaluateScript: util.eval];
+    [util addSelfToContext: context];
     outBlock = ^(NSString *msg) {
         NSLog(@"Util Alert: %@", msg);
     };

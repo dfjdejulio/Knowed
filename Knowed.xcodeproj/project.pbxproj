@@ -18,6 +18,8 @@
 		4712373918FEC3950069EDB3 /* KnowedConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4712373718FEC3950069EDB3 /* KnowedConsole.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4712373A18FEC3950069EDB3 /* KnowedConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373818FEC3950069EDB3 /* KnowedConsole.m */; };
 		4712373D18FECB790069EDB3 /* KnowedConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */; };
+		4713B7B319057DF1003DE5D6 /* KnowedThingy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4713B7B119057DF1003DE5D6 /* KnowedThingy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4713B7B419057DF1003DE5D6 /* KnowedThingy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4713B7B219057DF1003DE5D6 /* KnowedThingy.m */; };
 		4723904F18FEF96600437629 /* KnowedConsoleViaJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */; };
 		4734E6901900183200151AFC /* KnowedUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4734E68E1900183200151AFC /* KnowedUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4734E6911900183200151AFC /* KnowedUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4734E68F1900183200151AFC /* KnowedUtil.m */; };
@@ -55,6 +57,8 @@
 		4712373718FEC3950069EDB3 /* KnowedConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedConsole.h; path = Classes/KnowedConsole.h; sourceTree = "<group>"; };
 		4712373818FEC3950069EDB3 /* KnowedConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedConsole.m; path = Classes/KnowedConsole.m; sourceTree = "<group>"; };
 		4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedConsoleTests.m; sourceTree = "<group>"; };
+		4713B7B119057DF1003DE5D6 /* KnowedThingy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedThingy.h; path = Classes/KnowedThingy.h; sourceTree = "<group>"; };
+		4713B7B219057DF1003DE5D6 /* KnowedThingy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedThingy.m; path = Classes/KnowedThingy.m; sourceTree = "<group>"; };
 		4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedConsoleViaJSTests.m; sourceTree = "<group>"; };
 		4734E68E1900183200151AFC /* KnowedUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedUtil.h; path = Classes/KnowedUtil.h; sourceTree = "<group>"; };
 		4734E68F1900183200151AFC /* KnowedUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedUtil.m; path = Classes/KnowedUtil.m; sourceTree = "<group>"; };
@@ -179,6 +183,8 @@
 				47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */,
 				4734E68E1900183200151AFC /* KnowedUtil.h */,
 				4734E68F1900183200151AFC /* KnowedUtil.m */,
+				4713B7B119057DF1003DE5D6 /* KnowedThingy.h */,
+				4713B7B219057DF1003DE5D6 /* KnowedThingy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 				47E7EFBC18FF2ED7000FFA42 /* KnowedBufferConsole.h in Headers */,
 				4712373918FEC3950069EDB3 /* KnowedConsole.h in Headers */,
 				470C4D8F18FF81EC00BB03E3 /* Knowed.h in Headers */,
+				4713B7B319057DF1003DE5D6 /* KnowedThingy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4713B7B419057DF1003DE5D6 /* KnowedThingy.m in Sources */,
 				4734E6911900183200151AFC /* KnowedUtil.m in Sources */,
 				4712373A18FEC3950069EDB3 /* KnowedConsole.m in Sources */,
 				47E7EFBD18FF2ED7000FFA42 /* KnowedBufferConsole.m in Sources */,

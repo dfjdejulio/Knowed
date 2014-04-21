@@ -12,15 +12,11 @@
 
 @implementation KnowedUtil
 
-@synthesize eval = eval;
-
-@synthesize name = name;
-
 - (KnowedUtil *) init
 {
     self = [super init];
-    self->name = @"KnowedUtil";
-    self->eval = @"var alert = function(msg) { KnowedUtil.alert(msg); } ; var prompt = function (msg) { return KnowedUtil.prompt(msg); }";
+    knowedName = @"KnowedUtil";
+    knowedEval = @"var alert = function(msg) { KnowedUtil.alert(msg); } ; var prompt = function (msg) { return KnowedUtil.prompt(msg); }";
     return self;
 }
 
