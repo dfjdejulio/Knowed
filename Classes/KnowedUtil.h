@@ -16,12 +16,9 @@
 
 @end
 
-@interface KnowedUtil : NSObject <KnowedUtilExports>
-
-@property KnowedOutputBlock outBlock;
-@property KnowedInputBlockWithMessage inBlock;
-
-//@property NSString *outputText;
-//@property NSString *inputText;
+@interface KnowedUtil : NSObject <KnowedUtilExports> {
+    @public KnowedOutputBlock outBlock;
+    @public KnowedInputBlockWithMessage inBlock;
+}
 
 @end
