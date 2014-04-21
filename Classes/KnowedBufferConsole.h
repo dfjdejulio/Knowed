@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Doug DeJulio. All rights reserved.
 //
 
-#import "KnowedConsole.h"
+#import <Knowed/Knowed.h>
 
 @interface KnowedBufferConsole : KnowedConsole {
     __block NSMutableString *contents;

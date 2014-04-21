@@ -18,7 +18,7 @@
 - (KnowedBufferConsole *) init
 {
     contents = [NSMutableString new];
-    NoDOutputBlock logWithBuffer = ^(NSString *message) {
+    KnowedOutputBlock logWithBuffer = ^(NSString *message) {
         [contents appendFormat: @"%@\n", message];
     };
     return [super initWithOutputBlock: logWithBuffer];
