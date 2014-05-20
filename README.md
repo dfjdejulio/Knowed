@@ -20,15 +20,15 @@ Here are some built-in objects already in JavaScriptCore.
 ToDo
 ---
 
-* produce both OS X Framework & iOS library
-* generic alert/prompt
-* log with varargs
-* File I/O
-* http/https
-* storage APIs
- * WebSQL
-* crazy shit
- * WebGL?
+* [ ] produce both OS X Framework & iOS library
+* [ ] generic alert/prompt
+* [ ] log with varargs
+* [ ] File I/O
+* [ ] http/https
+* [ ] storage APIs
+ * [ ] WebSQL
+* [ ] crazy shit
+ * [ ] WebGL?
 
 Usage
 ---
