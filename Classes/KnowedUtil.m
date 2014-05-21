@@ -27,7 +27,11 @@
 
 - (NSString *) prompt: (NSString *) message
 {
-    return self->inBlock(message);
+    if (self->inBlock) {
+        return self->inBlock(message);
+    } else {
+        return nil;
+    }
 }
 
 @end
