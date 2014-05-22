@@ -20,6 +20,7 @@ Here are some built-in objects already in JavaScriptCore.
 ToDo
 ---
 
+* [ ] investigate [CommonJS](http://en.wikipedia.org/wiki/CommonJS)
 * [ ] produce both OS X Framework & iOS library
 * [ ] generic alert/prompt
 * [ ] log with varargs
