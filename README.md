@@ -21,8 +21,11 @@ ToDo
 ---
 
 * [ ] investigate [CommonJS](http://en.wikipedia.org/wiki/CommonJS) (discussed by [ArsTechnica](http://arstechnica.com/business/2009/12/commonjs-effort-sets-javascript-on-path-for-world-domination/))
-* [ ] produce both OS X Framework & iOS library
+* [x] produce both OS X Framework & iOS library
 * [ ] generic alert/prompt
+ *  [ ] Cocoa
+ *  [ ] UIKit
+ *  [ ] stdio
 * [ ] log with varargs
 * [ ] File I/O
 * [ ] http/https
