@@ -33,6 +33,7 @@ ToDo
  * [ ] WebSQL
 * [ ] crazy shit
  * [ ] WebGL?
+* [x] start using issue tracker for planning
 
 Usage
 ---
