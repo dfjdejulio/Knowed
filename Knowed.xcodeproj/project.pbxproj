@@ -492,7 +492,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "appledoc \"$SOURCE_ROOT\"";
+			shellScript = "which -s appledoc && appledoc \"$SOURCE_ROOT\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
