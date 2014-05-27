@@ -33,6 +33,7 @@ ToDo
  * [ ] WebSQL
 * [ ] crazy shit
  * [ ] WebGL?
+ * [ ] Add "KnowedJSContext" that sets up a JSContext with a set of utility objects and wraps it for execution in a background thread?  Could be tricky.  Could be useful.
 * [x] start using issue tracker for planning
 
 Usage
