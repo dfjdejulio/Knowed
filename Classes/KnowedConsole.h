@@ -12,16 +12,34 @@
 
 #pragma mark - Protocol
 
+/**
+ 
+ JavaScriptCore can only "see" properties and methods that are defined in a
+ protocol that extends the "JSExport" protocol.
+ 
+ */
+
 @protocol KnowedConsoleExports <JSExport>
-
-#pragma mark Exported Attributes
-
-@property BOOL shouldClear;
 
 #pragma mark Exported Methods
 
+/** Implement the console.log() method.
+ 
+ @param message The text to log.
+ */
+
 - (void) log: (NSString *) message;
+
+
+/// Implement the console.clear() method.
 - (void) clear;
+/** This is the "back-end" implementation of multi-parameter console.log() with
+ formatting.  Most JavaScript is not intended to call ths directly.  The
+ object's initializaiton script will set up more traditional-looking methods.
+ 
+ @param format The format string.
+ @param values The values to be formatted.
+ */
 - (void) logWithFormat: (NSString *) format andValues: (NSArray *) values;
 // TODO: make log varadic (???)
 // TOOD: add console.clear()
@@ -55,16 +73,40 @@
 
 #pragma mark Implemented Properties
 
-/// Flag to indicate if .clear() has been called but not yet handled.
+/** Flag to indicate that .clear() has been called but not yet handled.
+
+ Some implementations of the JavaScript console are handled entirely outside
+ of the JavaScript context.  If console.clear() has been called within
+ JavaScript but the object couldn't implement that behavior directly, this
+ flag will be set, so the environment containing the JavaScript context can
+ know the console needs to be cleared.
+ */
 @property BOOL shouldClear;
 
 #pragma mark Initializers
 
+/// Initialize with an implementation that writes to NSLog().
 - (KnowedConsole *) initWithNSLog;
+/// Initialize with an implementation that writes to stdout.
 - (KnowedConsole *) initWithStdout;
+/**
+ Initialize with an implementation backed by a code block the user provides.
+ As an example, here's the block that "initWithNSLog" uses.
+ 
+    KnowedOutputBlock logWithNSLog =  ^(NSString *message) {
+        NSLog(@"JS Log: %@", message);
+    };
+ 
+ @param outputBlock The block that implements writing output.
+ 
+ */
 - (KnowedConsole *) initWithOutputBlock: (KnowedOutputBlock) outputBlock;
 
 #pragma mark Other Methods
+/**
+ If the external environment has cleared the console, call this method
+ to indicate that.
+ */
 - (void) didClear;
 
 @end

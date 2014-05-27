@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		479A332519352C51004EF9BF /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 479A332619352C51004EF9BF /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				479A332919352C85004EF9BF /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		470C4D8F18FF81EC00BB03E3 /* Knowed.h in Headers */ = {isa = PBXBuildFile; fileRef = 4712371518FEC28E0069EDB3 /* Knowed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4712371318FEC28E0069EDB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4712371118FEC28E0069EDB3 /* InfoPlist.strings */; };
@@ -94,7 +108,6 @@
 		4712371218FEC28E0069EDB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4712371418FEC28E0069EDB3 /* Knowed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Knowed-Prefix.pch"; sourceTree = "<group>"; };
 		4712371518FEC28E0069EDB3 /* Knowed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Knowed.h; sourceTree = "<group>"; };
-		4712371618FEC28E0069EDB3 /* Knowed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Knowed.m; sourceTree = "<group>"; };
 		4712371C18FEC28E0069EDB3 /* KnowedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4712371D18FEC28E0069EDB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4712372518FEC28E0069EDB3 /* KnowedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnowedTests-Info.plist"; sourceTree = "<group>"; };
@@ -119,6 +132,7 @@
 		477B9E8C192CF73B007EB250 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Common.xcconfig; path = Configurations/Common.xcconfig; sourceTree = "<group>"; };
 		478733ED1905581300F204F4 /* KnowedTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnowedTypes.h; sourceTree = "<group>"; };
 		478733EF19055A3E00F204F4 /* KnowedUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedUtilTests.m; sourceTree = "<group>"; };
+		47A95D9A19352958003695BA /* AppledocSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
 		47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedBufferConsole.h; path = Classes/KnowedBufferConsole.h; sourceTree = "<group>"; };
 		47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedBufferConsole.m; path = Classes/KnowedBufferConsole.m; sourceTree = "<group>"; };
 		47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedBufferConsoleTests.m; sourceTree = "<group>"; };
@@ -168,6 +182,7 @@
 		471236FB18FEC28E0069EDB3 = {
 			isa = PBXGroup;
 			children = (
+				47A95D9A19352958003695BA /* AppledocSettings.plist */,
 				477B9E8B192CF718007EB250 /* Configurations */,
 				47733D0118FEDD390091C3CD /* README.md */,
 				4712373318FEC2AB0069EDB3 /* Classes */,
@@ -216,7 +231,6 @@
 				4712370F18FEC28E0069EDB3 /* Supporting Files */,
 				4712371518FEC28E0069EDB3 /* Knowed.h */,
 				478733ED1905581300F204F4 /* KnowedTypes.h */,
-				4712371618FEC28E0069EDB3 /* Knowed.m */,
 			);
 			path = Knowed;
 			sourceTree = "<group>";
@@ -433,6 +447,7 @@
 				4712371B18FEC28E0069EDB3 /* KnowedTests */,
 				477B9E58192CF559007EB250 /* KnowedLib */,
 				477B9E65192CF559007EB250 /* KnowedLibTests */,
+				479A332519352C51004EF9BF /* Documentation */,
 			);
 		};
 /* End PBXProject section */
@@ -464,6 +479,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		479A332919352C85004EF9BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "appledoc \"$SOURCE_ROOT\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4712370018FEC28E0069EDB3 /* Sources */ = {
@@ -744,7 +775,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 477B9E8C192CF73B007EB250 /* Common.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knowed.framework/Versions/A/Knowed";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -769,7 +800,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 477B9E8C192CF73B007EB250 /* Common.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knowed.framework/Versions/A/Knowed";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -784,6 +815,20 @@
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		479A332719352C51004EF9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		479A332819352C51004EF9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -834,6 +879,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		479A332619352C51004EF9BF /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479A332719352C51004EF9BF /* Debug */,
+				479A332819352C51004EF9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
