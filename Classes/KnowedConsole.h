@@ -68,9 +68,6 @@
     KnowedOutputBlock outBlock;
 }
 
-/// Block to call to send the output.
-//@property KnowedOutputBlock outBlock;
-
 #pragma mark Implemented Properties
 
 /** Flag to indicate that .clear() has been called but not yet handled.
