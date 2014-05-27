@@ -14,6 +14,3 @@
 #import "Knowed/KnowedBufferConsole.h"
 #import "Knowed/KnowedUtil.h"
 
-@interface Knowed : NSObject
-
-@end
