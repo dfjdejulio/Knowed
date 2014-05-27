@@ -35,6 +35,17 @@
 
 #pragma mark - Interface
 
+/**
+ 
+ This class implements some of the behavior required for the JavaScript
+ "console" object.
+
+    [myConsoleObject addSelfToContext: myJSContext];
+ 
+ That's how you use it.
+ 
+ */
+
 @interface KnowedConsole : KnowedThingy <KnowedConsoleExports> {
     KnowedOutputBlock outBlock;
 }
