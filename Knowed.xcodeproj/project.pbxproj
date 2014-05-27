@@ -492,7 +492,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "which -s appledoc && appledoc \"$SOURCE_ROOT\"";
+			shellScript = "PATH=/usr/local/bin:$PATH\nexport PATH\nwhich -s appledoc && appledoc \"$SOURCE_ROOT\" || echo \"warning: Documentation not built because appledoc not found.\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -887,6 +887,7 @@
 				479A332819352C51004EF9BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
