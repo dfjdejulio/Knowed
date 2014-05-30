@@ -10,4 +10,29 @@
 
 @implementation KnowedFileUtil
 
+- (instancetype)init
+{
+    self = [super init];
+    knowedName = @"KnowedFileUtil";
+    knowedEval = @"";
+    return self;
+}
+
+- (JSValue *) load:(NSString *)filename
+{
+    NSString *code = [self import:filename];
+    return [[JSContext currentContext] evaluateScript:code];
+}
+
+- (NSString *) importUrl:(NSString *)urlstring
+{
+    NSURL *url = [NSURL URLWithString:urlstring];
+    return [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:NULL];
+}
+
+- (NSString *)import:(NSString *)filename
+{
+    return [NSString stringWithContentsOfFile:filename encoding:NSUTF8StringEncoding error:NULL];
+}
+
 @end

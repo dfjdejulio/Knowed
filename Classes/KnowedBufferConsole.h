@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Doug DeJulio. All rights reserved.
 //
 
-#import <Knowed/Knowed.h>
+#import <Knowed/KnowedConsole.h>
 
 /**
 

@@ -13,4 +13,4 @@
 #import "Knowed/KnowedConsole.h"
 #import "Knowed/KnowedBufferConsole.h"
 #import "Knowed/KnowedUtil.h"
-
+#import "Knowed/KnowedFileUtil.h"

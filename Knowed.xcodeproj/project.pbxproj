@@ -29,13 +29,13 @@
 		4712372A18FEC28E0069EDB3 /* KnowedBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712372918FEC28E0069EDB3 /* KnowedBaseTests.m */; };
 		4712373418FEC2D70069EDB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712370B18FEC28E0069EDB3 /* Foundation.framework */; };
 		4712373618FEC2E30069EDB3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712373518FEC2E30069EDB3 /* JavaScriptCore.framework */; };
-		4712373918FEC3950069EDB3 /* KnowedConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4712373718FEC3950069EDB3 /* KnowedConsole.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4712373918FEC3950069EDB3 /* KnowedConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4712373718FEC3950069EDB3 /* KnowedConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4712373A18FEC3950069EDB3 /* KnowedConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373818FEC3950069EDB3 /* KnowedConsole.m */; };
 		4712373D18FECB790069EDB3 /* KnowedConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712373C18FECB790069EDB3 /* KnowedConsoleTests.m */; };
 		4713B7B319057DF1003DE5D6 /* KnowedThingy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4713B7B119057DF1003DE5D6 /* KnowedThingy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4713B7B419057DF1003DE5D6 /* KnowedThingy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4713B7B219057DF1003DE5D6 /* KnowedThingy.m */; };
 		4723904F18FEF96600437629 /* KnowedConsoleViaJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */; };
-		4734E6901900183200151AFC /* KnowedUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4734E68E1900183200151AFC /* KnowedUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4734E6901900183200151AFC /* KnowedUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4734E68E1900183200151AFC /* KnowedUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4734E6911900183200151AFC /* KnowedUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4734E68F1900183200151AFC /* KnowedUtil.m */; };
 		477B9E5A192CF559007EB250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712370B18FEC28E0069EDB3 /* Foundation.framework */; };
 		477B9E67192CF559007EB250 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712371D18FEC28E0069EDB3 /* XCTest.framework */; };
@@ -59,12 +59,19 @@
 		477B9E89192CF645007EB250 /* KnowedUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4734E68E1900183200151AFC /* KnowedUtil.h */; };
 		477B9E8A192CF645007EB250 /* KnowedThingy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4713B7B119057DF1003DE5D6 /* KnowedThingy.h */; };
 		477B9E8D192CF73B007EB250 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 477B9E8C192CF73B007EB250 /* Common.xcconfig */; };
+		47803E931938FC99004CCD35 /* KnowedFileUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47F1C83A1938D00800A92EF7 /* KnowedFileUtil.h */; };
 		478733EE1905581800F204F4 /* KnowedTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 478733ED1905581300F204F4 /* KnowedTypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		478733F019055A3E00F204F4 /* KnowedUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478733EF19055A3E00F204F4 /* KnowedUtilTests.m */; };
-		47E7EFBC18FF2ED7000FFA42 /* KnowedBufferConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4789B9DD1938EEAB00309354 /* KnowedFileUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4789B9DC1938EEAB00309354 /* KnowedFileUtilTests.m */; };
+		4789B9DE1938EEAB00309354 /* KnowedFileUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4789B9DC1938EEAB00309354 /* KnowedFileUtilTests.m */; };
+		4789B9DF1938F30C00309354 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 47733D0118FEDD390091C3CD /* README.md */; };
+		4789B9E01938F30D00309354 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 47733D0118FEDD390091C3CD /* README.md */; };
+		47B47CFB193911AC00CCF7B8 /* hello.js in Resources */ = {isa = PBXBuildFile; fileRef = 47B47CF81939106300CCF7B8 /* hello.js */; };
+		47B47CFC193911B400CCF7B8 /* hello.js in Resources */ = {isa = PBXBuildFile; fileRef = 47B47CF81939106300CCF7B8 /* hello.js */; };
+		47E7EFBC18FF2ED7000FFA42 /* KnowedBufferConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47E7EFBD18FF2ED7000FFA42 /* KnowedBufferConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */; };
 		47E7EFBF18FF3234000FFA42 /* KnowedBufferConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */; };
-		47F1C83C1938D00800A92EF7 /* KnowedFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F1C83A1938D00800A92EF7 /* KnowedFileUtil.h */; };
+		47F1C83C1938D00800A92EF7 /* KnowedFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F1C83A1938D00800A92EF7 /* KnowedFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47F1C83D1938D00800A92EF7 /* KnowedFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F1C83B1938D00800A92EF7 /* KnowedFileUtil.m */; };
 		47F1C83E1938D00800A92EF7 /* KnowedFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F1C83B1938D00800A92EF7 /* KnowedFileUtil.m */; };
 /* End PBXBuildFile section */
@@ -93,6 +100,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				47803E931938FC99004CCD35 /* KnowedFileUtil.h in CopyFiles */,
 				477B9E87192CF645007EB250 /* KnowedConsole.h in CopyFiles */,
 				477B9E88192CF645007EB250 /* KnowedBufferConsole.h in CopyFiles */,
 				477B9E89192CF645007EB250 /* KnowedUtil.h in CopyFiles */,
@@ -135,7 +143,9 @@
 		477B9E8C192CF73B007EB250 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Common.xcconfig; path = Configurations/Common.xcconfig; sourceTree = "<group>"; };
 		478733ED1905581300F204F4 /* KnowedTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnowedTypes.h; sourceTree = "<group>"; };
 		478733EF19055A3E00F204F4 /* KnowedUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedUtilTests.m; sourceTree = "<group>"; };
+		4789B9DC1938EEAB00309354 /* KnowedFileUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedFileUtilTests.m; sourceTree = "<group>"; };
 		47A95D9A19352958003695BA /* AppledocSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
+		47B47CF81939106300CCF7B8 /* hello.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hello.js; sourceTree = "<group>"; };
 		47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedBufferConsole.h; path = Classes/KnowedBufferConsole.h; sourceTree = "<group>"; };
 		47E7EFBB18FF2ED7000FFA42 /* KnowedBufferConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedBufferConsole.m; path = Classes/KnowedBufferConsole.m; sourceTree = "<group>"; };
 		47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedBufferConsoleTests.m; sourceTree = "<group>"; };
@@ -259,6 +269,7 @@
 				47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */,
 				4723904E18FEF96600437629 /* KnowedConsoleViaJSTests.m */,
 				478733EF19055A3E00F204F4 /* KnowedUtilTests.m */,
+				4789B9DC1938EEAB00309354 /* KnowedFileUtilTests.m */,
 			);
 			path = KnowedTests;
 			sourceTree = "<group>";
@@ -268,6 +279,7 @@
 			children = (
 				4712372518FEC28E0069EDB3 /* KnowedTests-Info.plist */,
 				4712372618FEC28E0069EDB3 /* InfoPlist.strings */,
+				47B47CF81939106300CCF7B8 /* hello.js */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -435,7 +447,7 @@
 						TestTargetID = 4712370418FEC28E0069EDB3;
 					};
 					477B9E65192CF559007EB250 = {
-						TestTargetID = 4712370418FEC28E0069EDB3;
+						TestTargetID = 477B9E58192CF559007EB250;
 					};
 				};
 			};
@@ -474,6 +486,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B47CFB193911AC00CCF7B8 /* hello.js in Resources */,
+				4789B9DF1938F30C00309354 /* README.md in Resources */,
 				4712372818FEC28E0069EDB3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +496,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B47CFC193911B400CCF7B8 /* hello.js in Resources */,
+				4789B9E01938F30D00309354 /* README.md in Resources */,
 				477B9E73192CF559007EB250 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +538,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4712372A18FEC28E0069EDB3 /* KnowedBaseTests.m in Sources */,
+				4789B9DD1938EEAB00309354 /* KnowedFileUtilTests.m in Sources */,
 				47E7EFBF18FF3234000FFA42 /* KnowedBufferConsoleTests.m in Sources */,
 				4723904F18FEF96600437629 /* KnowedConsoleViaJSTests.m in Sources */,
 				4712373D18FECB790069EDB3 /* KnowedConsoleTests.m in Sources */,
@@ -546,6 +563,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				477B9E7C192CF566007EB250 /* KnowedBaseTests.m in Sources */,
+				4789B9DE1938EEAB00309354 /* KnowedFileUtilTests.m in Sources */,
 				477B9E80192CF574007EB250 /* KnowedUtilTests.m in Sources */,
 				477B9E7F192CF572007EB250 /* KnowedConsoleViaJSTests.m in Sources */,
 				477B9E7E192CF570007EB250 /* KnowedBufferConsoleTests.m in Sources */,
@@ -706,7 +724,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 477B9E8C192CF73B007EB250 /* Common.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knowed.framework/Versions/A/Knowed";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -720,7 +737,6 @@
 				);
 				INFOPLIST_FILE = "KnowedTests/KnowedTests-Info.plist";
 				PRODUCT_NAME = KnowedTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -729,7 +745,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 477B9E8C192CF73B007EB250 /* Common.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knowed.framework/Versions/A/Knowed";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -739,7 +754,6 @@
 				GCC_PREFIX_HEADER = "Knowed/Knowed-Prefix.pch";
 				INFOPLIST_FILE = "KnowedTests/KnowedTests-Info.plist";
 				PRODUCT_NAME = KnowedTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -785,7 +799,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 477B9E8C192CF73B007EB250 /* Common.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knowed.framework/Versions/A/Knowed";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -801,7 +814,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -810,7 +822,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 477B9E8C192CF73B007EB250 /* Common.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knowed.framework/Versions/A/Knowed";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -822,7 +833,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
 			};

@@ -6,10 +6,12 @@
 //  Copyright (c) 2014 Doug DeJulio. All rights reserved.
 //
 
-#import <Knowed/Knowed.h>
+#import <Knowed/KnowedThingy.h>
 
 @protocol KnowedFileUtilExports <JSExport>
-- (JSValue *)load: (NSString *)filename;
+- (NSString *)importUrl: (NSString *)urlstring;
+- (NSString *)import: (NSString *)filename;
+- (JSValue *) load: (NSString *) filename;
 @end
 
 @interface KnowedFileUtil : KnowedThingy <KnowedFileUtilExports>
