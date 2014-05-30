@@ -4,6 +4,17 @@ Knowed
 This is intended to be a Framework that helps turn JavaScriptCore into a
 useful non-web runtime.  It should remind folks of "node.js".
 
+JavaSciptCore is currently very poorly documented.  There's no documentation
+for the new Objective-C bits in Xcode.  I've mostly had to glean things from
+WWDC presentations, random web pages from other hackers, and the source code.
+(It *is* an open source project, after all.)
+
+I noticed that the source code in Apple's repository had comments that work
+with Apple's "headerdoc2html" utility.  So, I ran that on the files in
+JavaWebCore/APIs, pulled out the Classes (because I don't want to think about
+the bits below the Objective-C level right now), and put 'em up here:
+[JavaScriptCore Documentation Snapshot](http://dfjdejulio.github.io/JavaScriptCore/).
+
 
 Notes
 ---
