@@ -32,6 +32,7 @@ ToDo
 ---
 
 * [ ] investigate [CommonJS](http://en.wikipedia.org/wiki/CommonJS) (discussed by [ArsTechnica](http://arstechnica.com/business/2009/12/commonjs-effort-sets-javascript-on-path-for-world-domination/))
+* [ ] investigate [node.js documented APIs](http://nodejs.org/api/)
 * [x] produce both OS X Framework & iOS library
 * [ ] generic alert/prompt
  *  [ ] Cocoa
