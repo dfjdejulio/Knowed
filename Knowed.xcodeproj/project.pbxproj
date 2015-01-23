@@ -58,7 +58,6 @@
 		477B9E88192CF645007EB250 /* KnowedBufferConsole.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */; };
 		477B9E89192CF645007EB250 /* KnowedUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4734E68E1900183200151AFC /* KnowedUtil.h */; };
 		477B9E8A192CF645007EB250 /* KnowedThingy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4713B7B119057DF1003DE5D6 /* KnowedThingy.h */; };
-		477B9E8D192CF73B007EB250 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 477B9E8C192CF73B007EB250 /* Common.xcconfig */; };
 		47803E931938FC99004CCD35 /* KnowedFileUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47F1C83A1938D00800A92EF7 /* KnowedFileUtil.h */; };
 		478733EE1905581800F204F4 /* KnowedTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 478733ED1905581300F204F4 /* KnowedTypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		478733F019055A3E00F204F4 /* KnowedUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478733EF19055A3E00F204F4 /* KnowedUtilTests.m */; };
@@ -440,7 +439,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Knowed;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Doug DeJulio";
 				TargetAttributes = {
 					4712371B18FEC28E0069EDB3 = {
@@ -478,7 +477,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4712371318FEC28E0069EDB3 /* InfoPlist.strings in Resources */,
-				477B9E8D192CF73B007EB250 /* Common.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
