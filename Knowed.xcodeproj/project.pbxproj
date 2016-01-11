@@ -439,7 +439,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Knowed;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Doug DeJulio";
 				TargetAttributes = {
 					4712371B18FEC28E0069EDB3 = {
@@ -632,6 +632,7 @@
 				COPY_PHASE_STRIP = NO;
 				DDJ_TESTING = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -698,6 +699,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Knowed/Knowed-Prefix.pch";
 				INFOPLIST_FILE = "Knowed/Knowed-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aisb.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(PRODUCT_BASE_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -714,6 +716,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Knowed/Knowed-Prefix.pch";
 				INFOPLIST_FILE = "Knowed/Knowed-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aisb.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(PRODUCT_BASE_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -735,6 +738,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "KnowedTests/KnowedTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aisb.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = KnowedTests;
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -752,6 +756,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Knowed/Knowed-Prefix.pch";
 				INFOPLIST_FILE = "KnowedTests/KnowedTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aisb.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = KnowedTests;
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -811,6 +816,7 @@
 				);
 				INFOPLIST_FILE = "KnowedLibTests/KnowedLibTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aisb.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = xctest;
@@ -830,6 +836,7 @@
 				GCC_PREFIX_HEADER = "KnowedLib/KnowedLib-Prefix.pch";
 				INFOPLIST_FILE = "KnowedLibTests/KnowedLibTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aisb.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
