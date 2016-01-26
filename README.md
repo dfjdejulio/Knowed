@@ -31,6 +31,9 @@ Here are some built-in objects already in JavaScriptCore.
 ToDo
 ---
 
+* [ ] switch to the "new" way of using a single shared framework on OS X and iOS, instead of my old kludge
+* [ ] implement stuff that TVJS provides but JavaScriptCore does not
+ * [ ] XMLHttpRequest
 * [ ] investigate [CommonJS](http://en.wikipedia.org/wiki/CommonJS) (discussed by [ArsTechnica](http://arstechnica.com/business/2009/12/commonjs-effort-sets-javascript-on-path-for-world-domination/))
 * [ ] investigate [node.js documented APIs](http://nodejs.org/api/)
 * [x] produce both OS X Framework & iOS library
