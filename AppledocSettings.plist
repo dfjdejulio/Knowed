@@ -27,7 +27,7 @@
 	<key>--keep-undocumented-members</key>
 	<true/>
 	<key>--warn-undocumented-object</key>
-	<true/>
+	<false/>
 	<key>--warn-undocumented-member</key>
 	<true/>
 	<key>--warn-empty-description</key>
