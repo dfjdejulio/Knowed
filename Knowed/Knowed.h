@@ -14,3 +14,4 @@
 #import "Knowed/KnowedBufferConsole.h"
 #import "Knowed/KnowedUtil.h"
 #import "Knowed/KnowedFileUtil.h"
+#import "Knowed/KnowedCommonJSUtil.h"
