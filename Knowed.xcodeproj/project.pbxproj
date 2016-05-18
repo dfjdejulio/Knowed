@@ -73,6 +73,8 @@
 		47F1C83C1938D00800A92EF7 /* KnowedFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F1C83A1938D00800A92EF7 /* KnowedFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47F1C83D1938D00800A92EF7 /* KnowedFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F1C83B1938D00800A92EF7 /* KnowedFileUtil.m */; };
 		47F1C83E1938D00800A92EF7 /* KnowedFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F1C83B1938D00800A92EF7 /* KnowedFileUtil.m */; };
+		47F2930B1CECE37A00B0A6FC /* KnowedCommonJSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F293091CECE37A00B0A6FC /* KnowedCommonJSUtil.h */; };
+		47F2930C1CECE37A00B0A6FC /* KnowedCommonJSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F2930A1CECE37A00B0A6FC /* KnowedCommonJSUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +152,8 @@
 		47E7EFBE18FF3234000FFA42 /* KnowedBufferConsoleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedBufferConsoleTests.m; sourceTree = "<group>"; };
 		47F1C83A1938D00800A92EF7 /* KnowedFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnowedFileUtil.h; path = Classes/KnowedFileUtil.h; sourceTree = "<group>"; };
 		47F1C83B1938D00800A92EF7 /* KnowedFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KnowedFileUtil.m; path = Classes/KnowedFileUtil.m; sourceTree = "<group>"; };
+		47F293091CECE37A00B0A6FC /* KnowedCommonJSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowedCommonJSUtil.h; sourceTree = "<group>"; };
+		47F2930A1CECE37A00B0A6FC /* KnowedCommonJSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowedCommonJSUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +290,8 @@
 		4712373318FEC2AB0069EDB3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				47F293091CECE37A00B0A6FC /* KnowedCommonJSUtil.h */,
+				47F2930A1CECE37A00B0A6FC /* KnowedCommonJSUtil.m */,
 				4712373718FEC3950069EDB3 /* KnowedConsole.h */,
 				4712373818FEC3950069EDB3 /* KnowedConsole.m */,
 				47E7EFBA18FF2ED7000FFA42 /* KnowedBufferConsole.h */,
@@ -354,6 +360,7 @@
 				47E7EFBC18FF2ED7000FFA42 /* KnowedBufferConsole.h in Headers */,
 				4712373918FEC3950069EDB3 /* KnowedConsole.h in Headers */,
 				470C4D8F18FF81EC00BB03E3 /* Knowed.h in Headers */,
+				47F2930B1CECE37A00B0A6FC /* KnowedCommonJSUtil.h in Headers */,
 				4713B7B319057DF1003DE5D6 /* KnowedThingy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4713B7B419057DF1003DE5D6 /* KnowedThingy.m in Sources */,
+				47F2930C1CECE37A00B0A6FC /* KnowedCommonJSUtil.m in Sources */,
 				47F1C83D1938D00800A92EF7 /* KnowedFileUtil.m in Sources */,
 				4734E6911900183200151AFC /* KnowedUtil.m in Sources */,
 				4712373A18FEC3950069EDB3 /* KnowedConsole.m in Sources */,
